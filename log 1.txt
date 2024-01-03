@@ -1,0 +1,33 @@
+MAIN {
+    - Create a todo
+    - Read Todolist
+    - Delete Todo
+    - Update / Edit Todo
+}
+
+TODO {
+    
+    Todo Structure:
+    {id, time, todo, details, priority, status}
+
+    each todo is stored in todolist
+
+    priority : 1-10
+
+    status code:
+    0 = unfinished
+    1 = finished
+    2 = cancelled
+
+    id : the last id of the last object in todolist + 1
+
+}
+
+Storage = pickle for now, later will be updated to MySQL
+
+Details {
+    * Todo will be stored as a dictionary.
+    * The code will be Object Oriented
+    * For now the interface will be CLI
+    
+}
